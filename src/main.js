@@ -33,18 +33,31 @@ document.querySelector("#app").innerHTML = `
 
     <section id="projects">
       <div id="images-descroptions">
-      PROJECT 1: CADAVRE EXQUIS (IMPERFECTION)
+      PROJECT 1: CADAVRE EXQUIS (IMPERFECT)
         <div class="three-model">
           <img src="./assignmentImages/Main Collage.jpg" id="model1" alt="Model 1 Image"/>
         </div>
         <div id="images-description">
           <div id="images">
-            ${assignment
-              .map(
-                (assignment, index) => 
-                  `<img src="${assignment}" alt="assignment${index + 1}" />`
-              )
-              .join("")}
+  <a href="assignmentImages/image1.jpg" target="_blank">
+    <img src="assignmentImages/image1.jpg" alt="image1"/>
+  </a>
+  <a href="assignmentImages/image2.jpg" target="_blank">
+    <img src="assignmentImages/image2.jpg" alt="image2"/>
+  </a>
+  <<a href="assignmentImages/image3.jpg" target="_blank">
+    <img src="assignmentImages/image3.jpg" alt="image3"/>
+  </a>
+  <a href="assignmentImages/image4.jpg" target="_blank">
+    <img src="assignmentImages/image4.jpg" alt="image4"/>
+  </a>
+  <<a href="assignmentImages/image5.jpg" target="_blank">
+    <img src="assignmentImages/image5.jpg" alt="image5"/>
+  </a>
+  <a href="assignmentImages/Main Collage.jpg" target="_blank">
+    <img src="assignmentImages/Main Collage.jpg" alt="Main Collage"/>
+  </a>
+</div>
           </div>
           <h4 id="description">Imperfection examines the beauty present in both ourselves and our environment by encouraging us to look beyond the surface and explore with curiosity. This abstract illustration signifies the varied ways in which different people perceive imperfections, as some may see them as destruction while others interpret them as perfection, allowing individuals to acquire fresh knowledge and insights about the world surrounding us.</h4>
         </div>
